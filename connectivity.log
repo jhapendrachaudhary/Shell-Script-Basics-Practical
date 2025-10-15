@@ -1,0 +1,9 @@
+PING www.google.com (2404:6800:4002:82a::2004) 56 data bytes
+64 bytes from tzdelb-ay-in-x04.1e100.net (2404:6800:4002:82a::2004): icmp_seq=1 ttl=116 time=23.7 ms
+64 bytes from tzdelb-ay-in-x04.1e100.net (2404:6800:4002:82a::2004): icmp_seq=2 ttl=116 time=223 ms
+64 bytes from tzdelb-ay-in-x04.1e100.net (2404:6800:4002:82a::2004): icmp_seq=3 ttl=116 time=152 ms
+64 bytes from tzdelb-ay-in-x04.1e100.net (2404:6800:4002:82a::2004): icmp_seq=4 ttl=116 time=171 ms
+
+--- www.google.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3006ms
+rtt min/avg/max/mdev = 23.712/142.249/222.775/73.202 ms

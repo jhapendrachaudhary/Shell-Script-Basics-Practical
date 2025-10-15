@@ -1,0 +1,34 @@
+>   = overwrite output to file
+>>  = append output to file
+
+break     = stop loop completely
+continue  = skip current loop, go to next
+
+$RANDOM   = gives random number
+$((RANDOM % N)) = random number in range 0–N-1
+
+$UID      = current user ID
+
+exit      = end the script
+exit 0    = success
+exit 1    = error
+
+sleep N   = pause for N seconds
+
+$?        = exit status of last command
+            0 = success, non-zero = error
+
+/dev/null = we can redirect the output to /dev/null , don't store data
+		#cd /root $> /dev/null
+ 
+${0} 	  = print name of script
+		echo "Name of script is ${0}"
+
+at 	  = For scheduling only one time, use AT
+		at 12:09 PM
+		<your_command>
+		ctrl+D (for exit)
+		
+		atq - to check scheduled job
+		atrm <id> to remove the schedule
+

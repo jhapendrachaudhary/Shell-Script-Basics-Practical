@@ -4,7 +4,7 @@
 # Usage: ./send-telegram.sh "Your alert message"
 
 # Get token and chat ID from environment variables (KEEP SECRETS SAFE!)
-BOT_TOKEN="8274587037:AAEzmkD2PZ5A2RdvkEBF1bLHQBgnns_5bCE"
+BOT_TOKEN="TELEGRAM_SECRET_KEY"
 CHAT_ID="6098115506"
 
 if [[ -z "$BOT_TOKEN" || -z "$CHAT_ID" ]]; then
